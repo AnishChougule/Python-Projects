@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <title>Sales Dashboard</title>
+    <!-- Add a CSS file later -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .visuals {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .chart {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            width: 48%; /* Adjust for responsiveness */
+            min-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sales Dashboard</h1>
+    </header>
+    <div class="container">
+        <div class="visuals">
+            <div class="chart" id="chart1">
+                <!-- Placeholder for Chart 1 -->
+                <h3>Sales Trend</h3>
+            </div>
+            <div class="chart" id="chart2">
+                <!-- Placeholder for Chart 2 -->
+                <h3>Top Products</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
