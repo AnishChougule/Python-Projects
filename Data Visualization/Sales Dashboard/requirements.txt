@@ -1,5 +1,0 @@
-streamlit
-pandas
-plotly
-data_processing
-data_visualization
